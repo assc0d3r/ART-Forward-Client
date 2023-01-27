@@ -6,7 +6,7 @@ services:
     #buildCommand: pip install -U -r requirements.txt
     #startCommand: gunicorn app:app & python3 -m Zaid
     repo: hhttps://github.com/assc0d3r/ART-Forward-Client     
-    branch: master
+    branch: main
     envVars:
       - key: API_ID 
         sync: false
